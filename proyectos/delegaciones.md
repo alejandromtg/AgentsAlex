@@ -1,0 +1,186 @@
+# 🚀 DELEGACIONES ACTIVAS - Estado en Vivo
+
+**Proyecto**: Stayva Expansion (3 páginas nuevas + calculadora)  
+**Fecha**: 2026-04-09 14:30 CET  
+**Orchestrator**: GitHub Copilot  
+
+---
+
+## 📋 ESTADO DE TAREAS
+
+```
+┌─────────────────────────┬──────────┬─────────────────────────┐
+│ AGENTE                  │ ESTADO   │ TAREAS DELEGADAS        │
+├─────────────────────────┼──────────┼─────────────────────────┤
+│ 1️⃣ CONTENT-MARKETING   │ ⏳ ACTIVE │ 3 tareas (copy páginas) │
+│ 2️⃣ WEB-APP-DB         │ ⏳ ACTIVE │ 3 tareas (build)        │
+│ 3️⃣ SEO                │ ⏳ ACTIVE │ 3 tareas (metadata)     │
+│ 4️⃣ QA-PROCESS        │ ⏳ PENDING │ 1 tarea (testing)       │
+└─────────────────────────┴──────────┴─────────────────────────┘
+```
+
+---
+
+## 📌 BRIEFINGS GENERADOS
+
+Cada agente tiene documento detallado:
+
+1. **📝 [briefing-content-marketing.md](../briefing-content-marketing.md)**
+   - Tarea 1: Copy `/apartamentos`
+   - Tarea 2: Copy `/calculadora`
+   - Tarea 3: Copy mejorado `/sobre-nosotros`
+   - Deadline: 10 Apr 18:00
+
+2. **🛠️ [briefing-web-app-db.md](../briefing-web-app-db.md)**
+   - Tarea 1: Build `/apartamentos` (Webflow)
+   - Tarea 2: Build `/calculadora` (Webflow + logic)
+   - Tarea 3: Build `/sobre-nosotros` (Webflow)
+   - Deadline: 11 Apr 16:00
+
+3. **🔍 [briefing-seo.md](../briefing-seo.md)**
+   - Tarea 1: SEO `/apartamentos` (keywords, schema, metadata)
+   - Tarea 2: SEO `/calculadora` (FAQ schema, optimization)
+   - Tarea 3: SEO `/sobre-nosotros` (Organization schema)
+   - Deadline: 11 Apr 09:00
+
+4. **✅ [briefing-qa.md](../briefing-qa.md)**
+   - Testing funcional: Filtros, calculadora, forms
+   - Responsive: Desktop, Tablet, Mobile
+   - Accessibility: WCAG AA
+   - Performance: Lighthouse > 85/100
+   - Deadline: 11 Apr 16:00
+
+---
+
+## 🎯 QUÉ ESPERAR DE CADA AGENTE
+
+### ✍️ CONTENT-MARKETING → Entrega (10 Apr 18:00)
+```
+📄 Documento con:
+- Copy hero para cada página
+- CTA variantes A/B
+- Microcopy (labels, placeholders, disclaimers)
+- Recomendaciones UX
+- Tonalidad consistente Stayva
+```
+
+### 🛠️ WEB-APP-DB → Entrega (11 Apr 16:00)
+```
+🌐 3 Páginas Webflow:
+- /apartamentos: Gallery filtrada, cards interactivas
+- /calculadora: Form funcional + lógica de cálculos
+- /sobre-nosotros: Equipo, timeline, valores, video
+✓ Responsive todos los breakpoints
+✓ Performance < 2.5s
+```
+
+### 🔍 SEO → Entrega (11 Apr 09:00)
+```
+🔖 Por página:
+- Title + Meta description optimizados
+- H1-H3 jerarquía semántica
+- JSON-LD schema (ItemList, FAQ, Organization)
+- Internal linking map
+- Sitemap update
+✓ Ready para deploy
+```
+
+### ✅ QA → Entrega (11 Apr 16:00)
+```
+📋 Reporte QA con:
+- ✓ Funcionalidad 100%
+- ✓ Responsividad cross-device
+- ✓ Cálculos validados (5 casos)
+- ✓ Accessibility WCAG AA
+- ✓ Performance baseline
+- 🚀 GO/NO-GO decision
+```
+
+---
+
+## 🗓️ TIMELINE COMPRIMIDO
+
+```
+WED 09 Apr
+├─ 14:30 → Delegaciones activas ✅
+└─ Agentes reciben briefings
+
+THU 10 Apr
+├─ 10:00 → Content-Marketing START
+├─ 14:00 → SEO START (recibe copy de CM)
+├─ 18:00 → Content-Marketing ENTREGA ✅
+└─ Web-App-DB START build
+
+FRI 11 Apr
+├─ 09:00 → SEO ENTREGA ✅
+├─ 10:00 → QA START (recibe Webflow dev)
+├─ 14:00 → Web-App-DB ENTREGA ✅
+└─ 16:00 → QA APROBACIÓN + DEPLOY 🚀
+
+SAT 12 Apr (Día entrega cliente)
+└─ 📱 Sitio live con 3 nuevas páginas
+```
+
+---
+
+## 📊 MÉTRICAS DE ÉXITO
+
+### Para Declarar "DONE":
+- ✅ 3 páginas live sin errores críticos
+- ✅ Calculadora funcional (cálculos validados)
+- ✅ Lighthouse > 85 cada página
+- ✅ Mobile responsive (no layout breaks)
+- ✅ 0 links rotos (404s)
+- ✅ SEO optimizada (metadata, schema)
+- ✅ Forms funcionando (contacto pre-rellena desde calculadora)
+
+### Post-Launch (Métricas comerciales):
+- 📈 +100 visitors mes 1 desde organic
+- 📈 +20 form submissions mes 1
+- ⏱️ Avg time on `/calculadora`: > 2 min
+- 🎯 Click-through rate `/apartamentos` → `/contacto`: > 5%
+
+---
+
+## 🚨 BLOCKERS ACTUALES
+
+**Ninguno identificado.** Pending input:
+- ¿Dataset apartamentos (CMS data o hardcoded)?
+- ¿Team photos (real or placeholder)?
+- ¿Video URL `/sobre-nosotros`?
+
+---
+
+## 📞 PRÓXIMO CHECKPOINT
+
+**Thu 10 Apr 18:00** 
+→ Content-Marketing delivery review  
+→ Orchestrator valida copy antes de que SEO + Web-App-DB lo usen
+
+---
+
+## 📂 ESTRUCTURA PROYECTO
+
+```
+/proyectos/
+├── stayva-expansion-pages.md ........... Plan maestro ✓
+├── briefing-content-marketing.md ....... Input para CM agente ✓
+├── briefing-web-app-db.md ............. Input para TECH agente ✓
+├── briefing-seo.md .................... Input para SEO agente ✓
+├── briefing-qa.md ..................... Input para QA agente ✓
+└── delegaciones.md .................... Este documento
+```
+
+---
+
+## 💬 COMUNICACIÓN
+
+- **Status daily**: 10:00 CET standup
+- **Blockers**: Ping orchestrator inmediato
+- **Entrega**: Documentos en `/proyectos/` con tag [ENTREGADO]
+
+---
+
+**Generated by**: Orchestrator  
+**Timestamp**: 2026-04-09T14:30Z  
+**Next sync**: Tomorrow 09:00 CET

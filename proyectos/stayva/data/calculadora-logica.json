@@ -1,0 +1,10 @@
+{
+  "tarifas": {
+    "Madrid":     { "Estudio": 80, "1 hab": 120, "2 hab": 180, "3 hab+": 250 },
+    "Medellín":   { "Estudio": 40, "1 hab": 60,  "2 hab": 90,  "3 hab+": 120 },
+    "Cancún":     { "Estudio": 60, "1 hab": 90,  "2 hab": 130, "3 hab+": 180 },
+    "Costa Rica": { "Estudio": 50, "1 hab": 75,  "2 hab": 110, "3 hab+": 150 }
+  },
+  "ocupacion": 0.75,
+  "diasAnio": 365
+}

@@ -3,7 +3,7 @@ from datetime import datetime
 from enum import Enum
 from typing import List, Dict, Optional
 
-class TaskStatus(Enum):pendiente
+class TaskStatus(Enum)
     PENDING = "pendiente"
     IN_PROGRESS = "en_progreso"
     COMPLETED = "completado"
